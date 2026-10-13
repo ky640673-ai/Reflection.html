@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Counseling Psychology Case Supervision Reflection</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+:root{--sky:#d9f1ff;--sun:#ffd96a;--pink:#ffb3cf;--mint:#a8ecd0;--lav:#d6c9ff;--ink:#2b2d6e;--paper:#fffdf6}
+*{box-sizing:border-box}
+html,body{margin:0;max-width:100%;overflow-x:hidden}
+body{font-family:'Patrick Hand','Fredoka',sans-serif;color:var(--ink);background:linear-gradient(180deg,var(--sky),#fff6d6);background-attachment:fixed;font-size:17px;line-height:1.6;padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
+.cloud{position:fixed;font-size:44px;opacity:.8;animation:drift linear infinite;pointer-events:none;z-index:0}
+@keyframes drift{from{transform:translateX(-15vw)}to{transform:translateX(110vw)}}
+main{position:relative;z-index:2;width:100%;max-width:640px;margin:0 auto;padding:28px 18px 48px}
+.score{position:fixed;top:calc(8px + env(safe-area-inset-top,0px));right:10px;z-index:20;background:var(--sun);border:2px solid var(--ink);border-radius:20px;padding:0 10px;font-family:Fredoka;font-weight:600;font-size:15px;transition:transform .15s}
+.score.bump{transform:scale(1.2)}
+.hero{text-align:center;padding:26px 0 6px}
+.brain{font-size:40px;display:inline-block;animation:hop 3s ease-in-out infinite;cursor:pointer}
+@keyframes hop{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-8px)}}
+h1{font-family:Fredoka;font-weight:600;font-size:clamp(24px,7vw,36px);line-height:1.2;margin:6px 0 0;text-shadow:2px 2px 0 var(--pink)}
+h1 span{display:inline-block;animation:hop 2.6s ease-in-out infinite}
+.badge{display:inline-block;margin-top:18px;background:var(--paper);border:2px solid var(--ink);border-radius:18px;padding:8px 20px;box-shadow:3px 3px 0 var(--mint)}
+.badge b{font-family:Fredoka;font-weight:600;display:block;font-size:17px}
+.badge i{font-style:normal;font-family:Fredoka;font-weight:500;font-size:15px}
+h2{font-family:Fredoka;font-weight:600;font-size:clamp(19px,5vw,26px);line-height:1.3;text-align:center;margin:36px 0 8px}
+h2 em{font-style:normal;background:var(--sun);padding:2px 14px;border-radius:30px;border:2px solid var(--ink);display:inline-block}
+.card{position:relative;background:var(--paper);border:2px solid var(--ink);border-radius:20px 14px 22px 16px;padding:22px 18px 18px;margin:30px 0;box-shadow:4px 4px 0 var(--c);opacity:0;transform:translateY(24px)}
+.card.in{opacity:1;transform:none;transition:all .6s cubic-bezier(.3,1.5,.5,1)}
+.card p{margin:0}
+.tag{position:absolute;top:-18px;left:14px;font-size:28px;cursor:pointer;user-select:none;animation:hop 3s infinite}
+.card h3{font-family:Fredoka;font-weight:600;font-size:18px;line-height:1.35;margin:0 0 12px;background:linear-gradient(transparent 60%,var(--sun) 60%);display:inline}
+.gap{height:10px}
+.star{position:fixed;z-index:10;font-size:24px;cursor:pointer;animation:floaty 5s ease-in-out infinite;transition:top .3s,left .3s}
+@keyframes floaty{50%{transform:translateY(-16px) rotate(15deg)}}
+.pop{position:fixed;z-index:30;pointer-events:none;font-size:20px;animation:fly .8s ease-out forwards}
+@keyframes fly{to{transform:translate(var(--x),var(--y)) scale(.2);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.card{opacity:1;transform:none}}
+</style></head>
+<body>
+<div class="cloud" style="top:10%;animation-duration:80s">☁️</div>
+<div class="cloud" style="top:55%;animation-duration:100s;animation-delay:-50s">☁️</div>
+<div class="score" id="score">⭐ 0</div>
+<div class="star" style="top:30%;left:3%">⭐</div>
+<div class="star" style="top:70%;left:88%;animation-delay:-2s">✨</div>
+
+<main>
+<header class="hero">
+  <span class="brain">🧠</span>
+  <h1 id="title">Counseling Psychology Case Supervision Reflection</h1>
+  <div class="badge"><b>Presented by : yogesh k</b><i>25BPY034</i></div>
+</header>
+
+<h2><em>Reflection on Counseling Psychology Case Supervision</em></h2>
+
+<section class="card" style="--c:var(--pink)"><span class="tag">🎬</span>
+<p>In this session I presented a case of a male with paranoid schizophrenia based on a video of a psychiatric interview. I was very interested in a lot of the interview, especially in his explanations of his beliefs and experiences. He had delusions, heard voices and used odd words like 'pedentry.' We also talked about his cannabis use and whether it could be linked to his symptoms. It made me realize that knowing a case isn’t just watching the interview and working out the symptoms.</p></section>
+
+<section class="card" style="--c:var(--mint)"><span class="tag">🔍</span>
+<h3>We discussed how to distinguish schizophrenia from substance-induced psychosis</h3>
+<div class="gap"></div>
+<p>We talked about how to differentiate between schizophrenia and substance induced psychosis and the importance of the person’s history. We also talked about the problem of working with someone who thinks they don't need treatment. In this discussion I learned something new about the LEAP approach. I learned that arguing with a client about what they believe in may not help, and that listening to them is important. We also discussed safety when working with clients who may have violent behavior or command hallucinations.</p></section>
+
+<section class="card" style="--c:var(--lav)"><span class="tag">💡</span>
+<p>The session gave me an insight into how case discussions happen and how there are many factors to be thought about before one can come to a conclusion. I have a lot to learn about how to handle such cases, but this talk helped me to understand the practical side of what we study in psychology.</p></section>
+</main>
+
+<script>
+var t=document.getElementById('title');
+t.innerHTML=t.textContent.split(' ').map(function(w,i){return '<span style="animation-delay:'+(i*.15)+'s">'+w+'</span>'}).join(' ');
+var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.1});
+document.querySelectorAll('.card').forEach(function(c){io.observe(c)});
+var n=0,sc=document.getElementById('score'),em=['⭐','🌟','✨','💫'];
+function burst(x,y){for(var i=0;i<6;i++){var p=document.createElement('div');p.className='pop';p.textContent=em[i%4];p.style.left=x+'px';p.style.top=y+'px';var a=Math.random()*6.28,d=40+Math.random()*50;p.style.setProperty('--x',Math.cos(a)*d+'px');p.style.setProperty('--y',Math.sin(a)*d+'px');document.body.appendChild(p);setTimeout(function(q){q.remove()},850,p)}}
+function collect(el,e){n++;sc.textContent='⭐ '+n;sc.classList.add('bump');setTimeout(function(){sc.classList.remove('bump')},160);burst(e.clientX,e.clientY);
+ if(el.classList.contains('star')){el.style.top=(15+Math.random()*70)+'%';el.style.left=(Math.random()<.5?2:90)+'%'}}
+document.querySelectorAll('.star,.tag,.brain').forEach(function(s){s.addEventListener('click',function(e){collect(s,e)})});
+</script>
+</body></html>
